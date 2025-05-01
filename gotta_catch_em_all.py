@@ -3,11 +3,11 @@ from sandshrew import Pokemon
 import random
 
 #trainer pokemon 
-sandshrew = Pokemon("Sandshrew", "30", "6")
-
+sandshrew = Pokemon("Sandshrew", 30, 6)
+#trainer = Trainer("Sandshrew", "30", "6")
 #wild pokemon 
-caterpie = Pokemon("Caterpie", "13", "2")
-
+caterpie = Pokemon("Caterpie", 13, 2)
+#wild = Wild("Caterpie", "13", "2")
 #print encounter scene
 
 
@@ -46,11 +46,15 @@ def main():
                 print()
                 print("Watch out!")
                 caterpie.mudshot(sandshrew)
+                print()
                 sandshrew.status()
                 caterpie.status()
                 print("__________________________________________")
-            #if not caterpie.alive():
-            # s   print(f"The {opponent.name} fainted. ")
+                if caterpie.alive false:
+                    print(f"The {opponent.name} fainted. ")
+                    #it's too late, I've been here too long, I don't know 
+                    #Nothing works, parentheses, colon, nothing. 
+                    #also tried false, like the hero solution. No.
         elif user_input == "2":
             sandshrew.restore()
             print("You used a health potion, Sandshrew feels much better.")
